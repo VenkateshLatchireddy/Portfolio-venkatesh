@@ -1,0 +1,115 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 200px;
+      height: 240px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 35vh; /* Reduced height for better fit */
+    }
+    #profile {
+      height: 75vh; /* Slightly reduced to fit smaller screens */
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 0.9rem; /* Slightly smaller text */
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 1.5rem; /* Adjusted margin */
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+      padding: 0.5rem; /* Added padding for spacing */
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 0.9rem; /* Reduced font size */
+    }
+    .experience-sub-title {
+      font-size: 1.1rem; /* Slightly smaller */
+    }
+    .logo {
+      font-size: 1.3rem; /* Reduced size */
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.4rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: 90%; /* Adjusted width */
+      height: 40vw; /* Reduced height */
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.1rem; /* Slightly smaller */
+    }
+    .title {
+      font-size: 1.8rem; /* Reduced for better fit */
+    }
+    .text-container {
+      text-align: justify;
+      padding: 0 1rem; /* Added padding for better readability */
+    }
+  
+    /* Reduce experience and details container sizes */
+    .experience-details-container,
+    .details-container {
+      width: 90%; /* Make them smaller on mobile */
+      padding: 1rem; /* Reduce padding */
+      border-radius: 1.5rem; /* Slightly smaller border-radius */
+    }
+  }
+  
+  
